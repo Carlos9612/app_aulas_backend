@@ -81,7 +81,10 @@ DATABASES = {
         'USER':'ddsadmin',
         'PASSWORD':'1qaw3ed***123',
         'HOST':'localhost',
-        'PORT':'3306'
+        'PORT':'3306',
+        'OPTIONS': {
+            'autocommit': True,
+        },
     }
 }
 
@@ -108,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'co-es'
+LANGUAGE_CODE = 'es-co'
 
 TIME_ZONE = 'UTC'
 
